@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
+import { LeafletModule } from '@asymmetrik/ngx-leaflet';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
@@ -50,6 +51,8 @@ import { NewsMainComponent } from './news-main/news-main.component';
 import { ImpactComponent } from './impact/impact.component';
 import { ImpactChampionsComponent } from './impact-champions/impact-champions.component';
 import { TipsLangSelectComponent } from './tips-lang-select/tips-lang-select.component';
+import { MapComponent } from './map/map.component';
+import { ImpactbriefsComponent } from './impactbriefs/impactbriefs.component';
 
 @NgModule({
   declarations: [
@@ -93,7 +96,9 @@ import { TipsLangSelectComponent } from './tips-lang-select/tips-lang-select.com
     NewsMainComponent,
     ImpactComponent,
     ImpactChampionsComponent,
-    TipsLangSelectComponent
+    TipsLangSelectComponent,
+    MapComponent,
+    ImpactbriefsComponent
   ],
   imports: [
     BrowserModule,
@@ -101,7 +106,8 @@ import { TipsLangSelectComponent } from './tips-lang-select/tips-lang-select.com
     BrowserAnimationsModule,
     HttpClientModule,
     NgbModule,
-    ScullyLibModule
+    ScullyLibModule,
+    LeafletModule
   ],
   providers: [
     SpreadsheetService,
