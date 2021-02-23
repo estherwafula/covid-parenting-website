@@ -52,17 +52,19 @@ const MENU_ITEMS: MenuItem[] = [
       { name: "Champions of Children", href: "/impactchampions" },
       { name: "Impact Briefs", href: "/impactbriefs" },      
       { name: "Impact Map", href: "/impactmap" }
-
     ]
   },
 
   {
-    name: "NEWS",
+    name: "NEWS & MEDIA",
     href: "/news-main",
     subMenuItems: [
       { name: "Updates", href: "/news" },
       { name: "Newsletters", href: "/newsletters" },
-      { name: "Webinars", href: "/webinars" }
+      { name: "Press", href: "/press" },
+      { name: "Publications", href: "/publications" },
+      { name: "Webinars", href: "/webinars" },
+      { name: "Podcasts", href: "/podcasts" }
     ]
   },
 
